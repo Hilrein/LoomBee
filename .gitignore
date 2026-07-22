@@ -1,0 +1,37 @@
+# Xcode
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.xcscmblueprint
+*.xccheckout
+
+# SPM
+.build/
+.swiftpm/
+Package.resolved
+
+# XcodeGen
+# The generated project is NOT source of truth
+*.xcodeproj
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Build artifacts
+build/
+*.o
+*.dSYM/
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Agents / AI
+.agents/
+
+# Progress tracking (dev-only)
+.superpowers/

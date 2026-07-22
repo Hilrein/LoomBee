@@ -1,0 +1,58 @@
+# =============================================================================
+# SwiftFormat Configuration — LoomBee
+# Compatible with .swiftlint.yml
+# =============================================================================
+
+# -- Swift Version -----------------------------------------------------------
+--swiftversion 6
+
+# -- Line Width --------------------------------------------------------------
+--maxwidth 120
+
+# -- Indentation -------------------------------------------------------------
+--indent 4
+--smarttabs enabled
+--indentcase false
+--ifdef no-indent
+
+# -- Wrapping ----------------------------------------------------------------
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--wrapconditions after-first
+--wrapreturntype preserve
+--closingparen balanced
+
+# -- Braces & Spacing --------------------------------------------------------
+--allman false
+--elseposition same-line
+--guardelse next-line
+--trimwhitespace always
+--ranges spaced
+
+# -- Commas (MUST match SwiftLint trailing_comma setting!) -------------------
+--commas always
+
+# -- Semicolons --------------------------------------------------------------
+--semicolons never
+
+# -- Self --------------------------------------------------------------------
+--self remove
+
+# -- Imports -----------------------------------------------------------------
+--importgrouping alpha
+
+# -- Void --------------------------------------------------------------------
+--voidtype void
+
+# -- Header ------------------------------------------------------------------
+--header strip
+
+# -- Disable Rules (let SwiftLint handle or too aggressive) ------------------
+--disable redundantSelf
+--disable redundantType
+--disable wrapConditionalBodies
+--disable acronyms
+
+# -- Exclusions --------------------------------------------------------------
+--exclude .build,DerivedData

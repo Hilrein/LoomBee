@@ -1,0 +1,36 @@
+#!/bin/bash
+# =============================================================================
+# Pre-commit hook — LoomBee
+# Runs SwiftFormat (autocorrect) and SwiftLint on staged .swift files.
+# =============================================================================
+
+# Get staged Swift files
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep '\.swift$' || true)
+
+if [ -z "$STAGED_FILES" ]; then
+    exit 0
+fi
+
+echo "🐝 LoomBee pre-commit: formatting and linting staged Swift files..."
+
+# Run SwiftFormat on staged files (set -e is safe here — format failure should block)
+if command -v swiftformat &> /dev/null; then
+    echo "$STAGED_FILES" | xargs swiftformat
+    echo "$STAGED_FILES" | xargs git add
+else
+    echo "⚠️  swiftformat not found — skipping auto-format"
+fi
+
+# Run SwiftLint on staged files
+# Note: NOT using set -e here so we can capture the exit code and print
+# a human-readable message before exiting.
+if command -v swiftlint &> /dev/null; then
+    if ! echo "$STAGED_FILES" | xargs swiftlint lint --strict --quiet; then
+        echo "❌ SwiftLint found errors. Fix them before committing."
+        exit 1
+    fi
+else
+    echo "⚠️  swiftlint not found — skipping lint"
+fi
+
+echo "✅ Pre-commit checks passed."

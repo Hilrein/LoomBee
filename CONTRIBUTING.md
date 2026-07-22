@@ -10,7 +10,7 @@ Thank you for your interest in contributing! This guide covers the development w
 
 Install development tools:
 ```bash
-brew install xcodegen swiftlint swiftformat
+brew install swiftlint swiftformat
 ```
 
 ## Development Workflow
@@ -20,7 +20,7 @@ brew install xcodegen swiftlint swiftformat
 ```bash
 git clone https://github.com/your-org/loombee.git
 cd loombee
-xcodegen generate
+open LoomBee.xcodeproj
 ```
 
 ### 2. Install the pre-commit hook (recommended)

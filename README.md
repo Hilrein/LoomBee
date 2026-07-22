@@ -17,7 +17,6 @@ An open-source macOS app that transforms your MacBook's display notch into an in
 - **macOS 14 (Sonoma)** or later
 - **Xcode 16** or later
 - **Swift 6**
-- **XcodeGen** (`brew install xcodegen`)
 - A MacBook with a display notch (MacBook Pro 14"/16" 2021+, MacBook Air 2022+)
 
 ## Getting Started
@@ -29,11 +28,10 @@ git clone https://github.com/your-org/loombee.git
 cd loombee
 ```
 
-### 2. Generate the Xcode project
+### 2. Open the Xcode project
 
 ```bash
-brew install xcodegen  # if not already installed
-xcodegen generate
+open LoomBee.xcodeproj
 ```
 
 ### 3. Build and run

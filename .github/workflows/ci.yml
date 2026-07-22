@@ -28,11 +28,8 @@ jobs:
       - name: Select Xcode
         run: sudo xcode-select -s /Applications/Xcode_16.app
 
-      - name: Install XcodeGen
-        run: brew install xcodegen
-
-      - name: Generate Xcode Project
-        run: xcodegen generate
+      - name: Build Xcode Project
+        run: xcodebuild -project LoomBee.xcodeproj -scheme LoomBee build -destination "platform=macOS"
 
       - name: Build (SPM)
         run: swift build

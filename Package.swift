@@ -8,9 +8,13 @@ let package = Package(
         .macOS(.v14),
     ],
     products: [
-        .executable(name: "LoomBee", targets: ["LoomBee"]),
         .library(name: "LoomBeeCore", targets: ["LoomBeeCore"]),
         .library(name: "LoomBeeDesignSystem", targets: ["LoomBeeDesignSystem"]),
+        .library(name: "FeatureMediaControl", targets: ["FeatureMediaControl"]),
+        .library(name: "FeatureHUD", targets: ["FeatureHUD"]),
+        .library(name: "FeatureFileShelf", targets: ["FeatureFileShelf"]),
+        .library(name: "FeatureCalendar", targets: ["FeatureCalendar"]),
+        .library(name: "FeatureSettings", targets: ["FeatureSettings"]),
     ],
     dependencies: [],
     targets: [
@@ -68,20 +72,5 @@ let package = Package(
             path: "Sources/Features/Settings"
         ),
 
-        // MARK: - App
-        // The executable target. Composes everything, handles lifecycle.
-        .executableTarget(
-            name: "LoomBee",
-            dependencies: [
-                "LoomBeeCore",
-                "LoomBeeDesignSystem",
-                "FeatureMediaControl",
-                "FeatureHUD",
-                "FeatureFileShelf",
-                "FeatureCalendar",
-                "FeatureSettings",
-            ],
-            path: "Sources/LoomBee"
-        ),
     ]
 )

@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		196C4F83FC115BD5274ED93F /* FeatureMediaControl in Frameworks */ = {isa = PBXBuildFile; productRef = A154F9AB015969261EC281DC /* FeatureMediaControl */; };
+		3FCA3883B6EA52BDA4A9E2A7 /* LoomBeeCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6DEDBC61A8DEDE2112182FDA /* LoomBeeCore */; };
+		89AC9A8C6234BE10AD1F537F /* FeatureHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 3877746253AB0BEF084BFC6C /* FeatureHUD */; };
+		91A07F976DD00DEA2950F51C /* FeatureSettings in Frameworks */ = {isa = PBXBuildFile; productRef = 96F771A3FB622C5EA8C66993 /* FeatureSettings */; };
+		CE3B6F2AA895850F187774FF /* FeatureFileShelf in Frameworks */ = {isa = PBXBuildFile; productRef = 6603621B9733569CD2BFF506 /* FeatureFileShelf */; };
+		D0AB09E149EAE2D80D9AA48A /* FeatureCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 48FE1E9AF3C2D647F3D72F55 /* FeatureCalendar */; };
+		FF84A7EF441106040BF421FC /* LoomBeeDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = A4554ABDCF2EF143156C236A /* LoomBeeDesignSystem */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B14DCB223010C83A00D19437 /* LoomBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoomBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B14DCB243010C83A00D19437 /* LoomBee */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = LoomBee;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B14DCB1F3010C83A00D19437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA3883B6EA52BDA4A9E2A7 /* LoomBeeCore in Frameworks */,
+				FF84A7EF441106040BF421FC /* LoomBeeDesignSystem in Frameworks */,
+				196C4F83FC115BD5274ED93F /* FeatureMediaControl in Frameworks */,
+				89AC9A8C6234BE10AD1F537F /* FeatureHUD in Frameworks */,
+				CE3B6F2AA895850F187774FF /* FeatureFileShelf in Frameworks */,
+				D0AB09E149EAE2D80D9AA48A /* FeatureCalendar in Frameworks */,
+				91A07F976DD00DEA2950F51C /* FeatureSettings in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B14DCB193010C83A00D19437 = {
+			isa = PBXGroup;
+			children = (
+				B14DCB243010C83A00D19437 /* LoomBee */,
+				B14DCB233010C83A00D19437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B14DCB233010C83A00D19437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B14DCB223010C83A00D19437 /* LoomBee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B14DCB213010C83A00D19437 /* LoomBee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B14DCB2D3010C83A00D19437 /* Build configuration list for PBXNativeTarget "LoomBee" */;
+			buildPhases = (
+				B14DCB1E3010C83A00D19437 /* Sources */,
+				B14DCB1F3010C83A00D19437 /* Frameworks */,
+				B14DCB203010C83A00D19437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B14DCB243010C83A00D19437 /* LoomBee */,
+			);
+			name = LoomBee;
+			packageProductDependencies = (
+				6DEDBC61A8DEDE2112182FDA /* LoomBeeCore */,
+				A4554ABDCF2EF143156C236A /* LoomBeeDesignSystem */,
+				A154F9AB015969261EC281DC /* FeatureMediaControl */,
+				3877746253AB0BEF084BFC6C /* FeatureHUD */,
+				6603621B9733569CD2BFF506 /* FeatureFileShelf */,
+				48FE1E9AF3C2D647F3D72F55 /* FeatureCalendar */,
+				96F771A3FB622C5EA8C66993 /* FeatureSettings */,
+			);
+			productName = LoomBee;
+			productReference = B14DCB223010C83A00D19437 /* LoomBee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B14DCB1A3010C83A00D19437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					B14DCB213010C83A00D19437 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = B14DCB1D3010C83A00D19437 /* Build configuration list for PBXProject "LoomBee" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B14DCB193010C83A00D19437;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				617E1199EAC038F42587EC87 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B14DCB233010C83A00D19437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B14DCB213010C83A00D19437 /* LoomBee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B14DCB203010C83A00D19437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B14DCB1E3010C83A00D19437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B14DCB2B3010C83A00D19437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NKADVQ2HQR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B14DCB2C3010C83A00D19437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NKADVQ2HQR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B14DCB2E3010C83A00D19437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NKADVQ2HQR;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hilrein.LoomBee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B14DCB2F3010C83A00D19437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NKADVQ2HQR;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hilrein.LoomBee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B14DCB1D3010C83A00D19437 /* Build configuration list for PBXProject "LoomBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14DCB2B3010C83A00D19437 /* Debug */,
+				B14DCB2C3010C83A00D19437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B14DCB2D3010C83A00D19437 /* Build configuration list for PBXNativeTarget "LoomBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14DCB2E3010C83A00D19437 /* Debug */,
+				B14DCB2F3010C83A00D19437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		617E1199EAC038F42587EC87 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			path = .;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3877746253AB0BEF084BFC6C /* FeatureHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 617E1199EAC038F42587EC87 /* XCLocalSwiftPackageReference "." */;
+			productName = FeatureHUD;
+		};
+		48FE1E9AF3C2D647F3D72F55 /* FeatureCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 617E1199EAC038F42587EC87 /* XCLocalSwiftPackageReference "." */;
+			productName = FeatureCalendar;
+		};
+		6603621B9733569CD2BFF506 /* FeatureFileShelf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 617E1199EAC038F42587EC87 /* XCLocalSwiftPackageReference "." */;
+			productName = FeatureFileShelf;
+		};
+		6DEDBC61A8DEDE2112182FDA /* LoomBeeCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 617E1199EAC038F42587EC87 /* XCLocalSwiftPackageReference "." */;
+			productName = LoomBeeCore;
+		};
+		96F771A3FB622C5EA8C66993 /* FeatureSettings */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 617E1199EAC038F42587EC87 /* XCLocalSwiftPackageReference "." */;
+			productName = FeatureSettings;
+		};
+		A154F9AB015969261EC281DC /* FeatureMediaControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 617E1199EAC038F42587EC87 /* XCLocalSwiftPackageReference "." */;
+			productName = FeatureMediaControl;
+		};
+		A4554ABDCF2EF143156C236A /* LoomBeeDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 617E1199EAC038F42587EC87 /* XCLocalSwiftPackageReference "." */;
+			productName = LoomBeeDesignSystem;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B14DCB1A3010C83A00D19437 /* Project object */;
+}
